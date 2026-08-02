@@ -19,7 +19,7 @@ body{
 
     height:100vh;
 
-background: transparent;
+background: rgba(0,0,0,0.25);
     background-size:cover;
 
     background-position:center;
@@ -178,7 +178,8 @@ footer{
 
 }
 section{
-    background: rgba(0,0,0,0.55);
+    background: rgba(255,255,255,0.15);
+backdrop-filter: blur(8px);
     margin:20px;
     padding:20px;
     border-radius:15px;
