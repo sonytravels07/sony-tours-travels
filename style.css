@@ -16,28 +16,15 @@ body{
     color: #fff;
 }
 .hero{
-
     height:100vh;
-
-background: transparent;
-    background-size:cover;
-
-    background-position:center;
-
+    background: transparent;
     display:flex;
-
     justify-content:center;
-
     align-items:center;
-
     text-align:center;
-
     color:#fff;
-
     padding:20px;
-
 }
-
 .hero h1{
 
     font-size:48px;
