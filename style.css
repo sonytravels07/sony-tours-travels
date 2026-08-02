@@ -1,32 +1,185 @@
+*{
+
+    margin:0;
+
+    padding:0;
+
+    box-sizing:border-box;
+
+    font-family:Arial,sans-serif;
+
+}
+
 body{
-  margin:0;
-  font-family:Arial,sans-serif;
-  background:#f5f5f5;
-  color:#333;
-}
 
-h1{
-  text-align:center;
-  color:#0b5ed7;
-  margin-top:40px;
-}
+    background:#f5f5f5;
 
-p{
-  text-align:center;
-  font-size:18px;
+    color:#333;
+
 }
 
 .hero{
-  background:#0b5ed7;
-  color:white;
-  padding:60px 20px;
-  text-align:center;
-}
-.hero h1,
-.hero p {
-    color: white;
+
+    height:100vh;
+
+    background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),
+
+    url(“IMG_20260731_072703_960.jpg”);
+
+    background-size:cover;
+
+    background-position:center;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    color:#fff;
+
+    padding:20px;
+
 }
 
-.hero h1 {
-    margin-top: 0;
+.hero h1{
+
+    font-size:48px;
+
+    margin-bottom:15px;
+
+}
+
+.hero p{
+
+    font-size:22px;
+
+    margin-bottom:20px;
+
+}
+
+.btn{
+
+    display:inline-block;
+
+    background:#25D366;
+
+    color:#fff;
+
+    text-decoration:none;
+
+    padding:12px 25px;
+
+    border-radius:30px;
+
+    font-size:18px;
+
+    margin:8px;
+
+    transition:.3s;
+  }
+
+.btn:hover{
+
+    background:#128C7E;
+
+}
+
+section{
+
+    padding:60px 20px;
+
+}
+
+h2{
+
+    text-align:center;
+
+    color:#0b5ed7;
+
+    margin-bottom:30px;
+
+}
+
+.gallery{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+    gap:20px;
+
+}
+
+.gallery img{
+
+    width:100%;
+
+    height:220px;
+
+    object-fit:cover;
+
+    border-radius:12px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.2);
+
+}
+
+.contact{
+
+    background:#0b5ed7;
+
+    color:#fff;
+
+    text-align:center;
+
+}
+
+.contact a{
+
+    color:#fff;
+
+    text-decoration:none;
+
+    font-size:18px;
+
+}
+
+footer{
+
+    background:#111;
+
+    color:#fff;
+
+    text-align:center;
+
+    padding:15px;
+
+}
+
+@media(max-width:768px){
+
+    .hero h1{
+
+        font-size:34px;
+
+    }
+
+    .hero p{
+
+        font-size:18px;
+
+    }
+
+    .btn{
+
+        display:block;
+
+        width:220px;
+
+        margin:10px auto;
+      }
+
 }
