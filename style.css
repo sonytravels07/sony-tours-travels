@@ -13,10 +13,13 @@
 body{
     background: url(“IMG_4514.jpeg”) no-repeat center center fixed;
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     color: #fff;
 }
 .hero{
-    height:100vh;
+    min-<height:100vh;
     background: transparent;
     display:flex;
     justify-content:center;
