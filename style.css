@@ -112,13 +112,9 @@ h2{
 }
 
 .contact{
-
-    background:#0b5ed7;
-
-    color:#fff;
-
-    text-align:center;
-
+    background: transparent;
+    color: #fff;
+    text-align: center;
 }
 
 .contact a{
