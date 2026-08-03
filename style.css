@@ -31,13 +31,10 @@ body{
     padding:20px;
 }
 .hero h1{
-
     font-size:48px;
-
     margin-bottom:15px;
-    color: #FFD700;
-    text-shadow: 2px 2px 8px #000;
-
+    color:#FFD700 !important;
+    text-shadow:2px 2px 8px #000;
 }
 
 .hero p{
