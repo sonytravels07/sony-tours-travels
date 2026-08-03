@@ -68,8 +68,12 @@
 <a href="IMG_20260731_072722_815.jpg" target="_blank"><img src="IMG_20260731_072722_815.jpg"></a>
 </div>
     <script>
-let slides = document.querySelectorAll(".slider img");
+let slides = document.querySelectorAll(".slider a");
 let current = 0;
+
+slides.forEach((slide, index) => {
+  if (index !== 0) slide.style.display = "none";
+});
 
 setInterval(() => {
   slides[current].style.display = "none";
