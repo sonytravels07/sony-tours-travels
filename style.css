@@ -297,3 +297,16 @@ footer {
     padding:15px;
     font-size:22px;
 }
+.booking textarea{
+    width:100% !important;
+    height:120px;
+    resize:none;
+}
+
+.booking input{
+    width:100% !important;
+}
+
+.booking .btn{
+    width:100%;
+}
