@@ -187,50 +187,9 @@ section,
 footer {
     background: transparent !important;
 }
-.booking form{
-    display:flex;
-    flex-direction:column;
-    gap:12px;
-}
-
-.booking input,
-.booking textarea,
-.booking button{
-    width:100%;
-    box-sizing:border-box;
-}
-
-.booking input[type="date"]{
-    display:block;
-    width:100% !important;
-    min-height:50px;
-    color:#000;
-    background:#fff;
-}
-.overlay {
-    background: transparent;
-}
-.instagram-btn {
-    background: #E1306C;
-    color: white;
-}
 .booking{
-    max-width:600px;
+    max-width:500px;
     margin:40px auto;
-    padding:20px;
-    background:rgba(255,255,255,0.15);
-    border-radius:15px;
-    backdrop-filter:blur(8px);
-}
-
-.booking input,
-.booking textarea{
-    width:100%;
-    padding:12px;
-    margin:10px 0;
-    border:none;
-    border-radius:8px;
-    font-size:16px;
 }
 
 .booking form{
@@ -240,31 +199,22 @@ footer {
 }
 
 .booking input,
-.booking textarea,
-.booking button{
+.booking textarea{
     width:100%;
     box-sizing:border-box;
-}
-
-.booking input{
-    padding:12px;
-    height:48px;
+    padding:14px;
     border:none;
     border-radius:8px;
-    font-size:16px;
+    font-size:18px;
 }
 
 .booking textarea{
-    padding:12px;
-    min-height:120px;
-    resize:none;
-    border:none;
-    border-radius:8px;
-    font-size:16px;
+    height:120px;
 }
 
 .booking .btn{
     width:100%;
-    padding:15px;
-    font-size:22px;
+    padding:18px;
+    font-size:28px;
+    border-radius:50px;
 }
