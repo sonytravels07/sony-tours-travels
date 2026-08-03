@@ -300,3 +300,32 @@ footer {
     padding:15px;
     font-size:22px;
 }
+.booking{
+    max-width:500px;
+    margin:40px auto;
+}
+
+.booking input,
+.booking textarea,
+.booking .btn{
+    width:100% !important;
+    display:block;
+    box-sizing:border-box;
+}
+
+.booking input{
+    height:50px;
+    padding:12px;
+    margin-bottom:12px;
+}
+
+.booking textarea{
+    height:120px;
+    padding:12px;
+    margin-bottom:15px;
+}
+
+.booking .btn{
+    padding:15px;
+    font-size:22px;
+}
