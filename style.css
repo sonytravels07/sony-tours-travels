@@ -186,7 +186,24 @@ section,
 footer {
     background: transparent !important;
 }
+.booking form{
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+}
 
+.booking input,
+.booking textarea,
+.booking button{
+    width:100%;
+    box-sizing:border-box;
+}
+
+.booking input[type=“date”]{
+    width:100%;
+    color:#000;
+    background:#fff;
+}
 .overlay {
     background: transparent;
 }
