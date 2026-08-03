@@ -37,6 +37,7 @@ body{
     margin-bottom:15px;
     color:#FFD700 !important;
     text-shadow:2px 2px 8px #000;
+    padding-top:40px;
 }
 
 .hero p{
@@ -51,7 +52,10 @@ body{
 
     display:inline-block;
 
-    background:#25D366;
+    background: rgba(37,211,102,0.85);
+backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10x);
+border: 1px solid rgba(255,255,255,0.3);
 
     color:#fff;
     box-shadow: 0 8px 20px rgba(0,0,0,0.4);
@@ -70,9 +74,8 @@ body{
   }
 
 .btn:hover{
-
-    background:#128C7E;
-
+    background: rgba(37,211,102,1);
+    transform: scale(1.05);
 }
 
 section{
