@@ -16,6 +16,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    min-height: 100vh;
     color: #fff;
 }
 .hero{
@@ -184,5 +185,5 @@ footer {
 }
 
 .overlay {
-    background: rgba(0,0,0,0.25);
+    background: transparent;
 }
