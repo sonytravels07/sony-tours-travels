@@ -216,3 +216,19 @@ footer {
     font-size:28px;
     border-radius:50px;
 }
+.slider{
+  position:relative;
+  max-width:600px;
+  margin:auto;
+  overflow:hidden;
+}
+
+.slider img{
+  width:100%;
+  display:none;
+  border-radius:15px;
+}
+
+.slider img:first-child{
+  display:block;
+}
