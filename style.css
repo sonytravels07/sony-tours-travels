@@ -19,6 +19,8 @@ body{
     background-repeat: no-repeat !important;
     background-attachment: scroll;
     color: #fff;
+    padding:20px;
+    padding-top:80x;
 }
 .hero{
     min-height:100vh;
@@ -52,6 +54,7 @@ body{
     background:#25D366;
 
     color:#fff;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.4);
 
     text-decoration:none;
 
