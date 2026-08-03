@@ -49,10 +49,10 @@
     </div>
 </section>
 
-<section id="vehicles">
+<section id="slider">
 <h2>Our Vehicles</h2>
 
-<div class="gallery">
+<div class="slider">
 <a href="IMG_20260731_072703_960.jpg" target="_blank"><img src="IMG_20260731_072703_960.jpg"></a>
 
 <a href="IMG_20260731_072707_547.jpg" target="_blank"><img src="IMG_20260731_072707_547.jpg"></a>
@@ -67,6 +67,16 @@
 
 <a href="IMG_20260731_072722_815.jpg" target="_blank"><img src="IMG_20260731_072722_815.jpg"></a>
 </div>
+    <script>
+let slides = document.querySelectorAll(".slider img");
+let current = 0;
+
+setInterval(() => {
+  slides[current].style.display = "none";
+  current = (current + 1) % slides.length;
+  slides[current].style.display = "block";
+}, 3000);
+    </script>
 </section>
 
 <section class=“booking”>
