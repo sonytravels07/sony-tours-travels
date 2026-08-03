@@ -265,3 +265,17 @@ footer {
     border-radius:20px;
 }
 }
+.slider{
+    max-width:600px;
+    margin:40px auto;
+}
+
+.slider img{
+    width:100%;
+    display:block;
+    border-radius:20px;
+    margin-bottom:30px;
+}
+.booking{
+    margin-top:60px;
+}
