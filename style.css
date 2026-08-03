@@ -252,3 +252,15 @@ footer {
 .next{
   right:10px;
 }
+.slider a{
+    display:none;
+}
+
+.slider a:first-child{
+    display:block;
+}
+
+.slider img{
+    width:100%;
+    border-radius:20px;
+}
