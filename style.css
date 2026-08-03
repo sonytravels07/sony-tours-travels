@@ -232,3 +232,23 @@ footer {
 .slider img:first-child{
   display:block;
 }
+.prev, .next{
+  position:absolute;
+  top:50%;
+  transform:translateY(-50%);
+  background:rgba(0,0,0,0.5);
+  color:white;
+  border:none;
+  padding:10px 15px;
+  font-size:24px;
+  cursor:pointer;
+  border-radius:50%;
+}
+
+.prev{
+  left:10px;
+}
+
+.next{
+  right:10px;
+}
