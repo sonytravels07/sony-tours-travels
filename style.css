@@ -255,3 +255,20 @@ footer {
     flex-direction:column;
     gap:12px;
 }
+.booking input,
+.booking textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.booking input[type="date"] {
+    display: block;
+    background: white;
+    color: black;
+    height: 48px;
+}
